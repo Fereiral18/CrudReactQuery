@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container-general{
+    width: 100vw;
+height: 90vh;
+}
+              
+
+.home-btn{
+    display: flex;
+   
+margin-left: 25px;
+width: 200px;
+background-color: #360266;
+}
+.background{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#360266,
+    #BC78EC);
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+   justify-content: center;
+   align-items: center;
+
+}
+.barra-navegacion{
+    width: 100vw;
+    height: 5vh;
+    background-color: #360266
+}
+.crud{
+    margin-top: -50px;
+    font-size: 4vw;
+    color: grey;
+}
+.next{
+    font-size: 8vw;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
